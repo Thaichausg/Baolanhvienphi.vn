@@ -1,15 +1,15 @@
 // Activity feed data - realistic, rotating messages
 export const activityMessages = [
-  { city: "TP.HCM", action: "vừa nhận tư vấn", time: "2 phút trước" },
-  { city: "Hà Nội", action: "đã xem báo giá gói Nâng cao", time: "5 phút trước" },
-  { city: "Đà Nẵng", action: "vừa đăng ký tư vấn", time: "8 phút trước" },
-  { city: "TP.HCM", action: "đã nhận phí bảo hiểm gia đình 4 người", time: "12 phút trước" },
-  { city: "Bình Dương", action: "vừa hoàn tất hồ sơ", time: "15 phút trước" },
-  { city: "Hà Nội", action: "đã so sánh gói Cơ bản và Nâng cao", time: "18 phút trước" },
-  { city: "Cần Thơ", action: "vừa nhận tư vấn qua Zalo", time: "22 phút trước" },
-  { city: "TP.HCM", action: "đã xem báo giá cho 2 người", time: "25 phút trước" },
-  { city: "Hải Phòng", action: "vừa đăng ký tư vấn gói gia đình", time: "30 phút trước" },
-  { city: "Nha Trang", action: "đã nhận file hướng dẫn claim", time: "35 phút trước" },
+  { city: "TP.HCM", action: "vừa nhận tư vấn", time: "vừa xong" },
+  { city: "Hà Nội", action: "đã xem báo giá gói Nâng cao", time: "2 phút trước" },
+  { city: "Đà Nẵng", action: "vừa đăng ký tư vấn", time: "3 phút trước" },
+  { city: "TP.HCM", action: "đã nhận phí bảo hiểm gia đình 4 người", time: "4 phút trước" },
+  { city: "Bình Dương", action: "vừa hoàn tất hồ sơ", time: "5 phút trước" },
+  { city: "Hà Nội", action: "đã so sánh gói Cơ bản và Nâng cao", time: "6 phút trước" },
+  { city: "Cần Thơ", action: "vừa nhận tư vấn qua Zalo", time: "7 phút trước" },
+  { city: "TP.HCM", action: "đã xem báo giá cho 2 người", time: "8 phút trước" },
+  { city: "Hải Phòng", action: "vừa đăng ký tư vấn gói gia đình", time: "10 phút trước" },
+  { city: "Nha Trang", action: "đã nhận file hướng dẫn claim", time: "12 phút trước" },
 ];
 
 // Hospital partner logos
