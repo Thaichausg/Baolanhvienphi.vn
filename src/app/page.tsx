@@ -3,6 +3,7 @@ import Footer from "@/components/layout/Footer";
 import HeroSection from "@/components/sections/HeroSection";
 import PainSection from "@/components/sections/PainSection";
 import SolutionSection from "@/components/sections/SolutionSection";
+import BenefitsSection from "@/components/sections/BenefitsSection";
 import ProofSection from "@/components/sections/ProofSection";
 import ObjectionSection from "@/components/sections/ObjectionSection";
 import ComparisonSection from "@/components/sections/ComparisonSection";
@@ -21,6 +22,7 @@ export default function Home() {
         <HeroSection />
         <PainSection />
         <SolutionSection />
+        <BenefitsSection />
         <ProofSection />
         <ObjectionSection />
         <ComparisonSection />

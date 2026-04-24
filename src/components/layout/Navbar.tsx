@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { Shield, Menu, X, Phone, ChevronRight } from "lucide-react";
 
 const navLinks = [
-  { label: "Quyền lợi", href: "#solution" },
+  { label: "Quyền lợi", href: "#benefits" },
   { label: "Bằng chứng", href: "#proof" },
   { label: "So sánh", href: "#comparison" },
   { label: "FAQ", href: "#faq" },
