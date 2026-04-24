@@ -14,14 +14,14 @@ export const activityMessages = [
 
 // Hospital partner logos
 export const hospitalPartners = [
-  { name: "Vinmec", logo: "🏥" },
-  { name: "FV Hospital", logo: "🏥" },
-  { name: "Hoàn Mỹ", logo: "🏥" },
-  { name: "Việt Pháp", logo: "🏥" },
-  { name: "Thu Cúc", logo: "🏥" },
-  { name: "Đại học Y Dược", logo: "🏥" },
-  { name: "Bệnh viện 115", logo: "🏥" },
-  { name: "Chợ Rẫy", logo: "🏥" },
+  { name: "Vinmec", logo: "/logos/vinmec.png" },
+  { name: "FV Hospital", logo: "/logos/fv.png" },
+  { name: "Hoàn Mỹ", logo: "/logos/hoan-my.png" },
+  { name: "Việt Pháp", logo: "/logos/viet-phap.png" },
+  { name: "Thu Cúc", logo: "/logos/thu-cuc.png" },
+  { name: "Đại học Y Dược", logo: "/logos/y-duoc.png" },
+  { name: "Bệnh viện 115", logo: "/logos/bv-115.png" },
+  { name: "Chợ Rẫy", logo: "/logos/cho-ray.png" },
 ];
 
 // FAQ data

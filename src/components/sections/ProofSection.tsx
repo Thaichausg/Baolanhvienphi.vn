@@ -251,21 +251,36 @@ export default function ProofSection() {
           <h3 className="text-lg font-bold text-text-primary text-center mb-8">
             Bệnh viện liên kết
           </h3>
-          <div className="overflow-hidden">
+          <div className="overflow-hidden group/carousel">
             <div
-              className="flex gap-6 transition-transform duration-500"
+              className="flex gap-4 sm:gap-6 transition-transform duration-500 group-hover/carousel:[animation-play-state:paused]"
               style={{
-                transform: `translateX(-${logoOffset * 140}px)`,
+                transform: `translateX(-${logoOffset * 160}px)`,
               }}
             >
               {[...hospitalPartners, ...hospitalPartners].map((hospital, i) => (
                 <div
                   key={i}
-                  className="glass-card rounded-xl px-6 py-4 flex items-center gap-3 min-w-[180px] shrink-0"
+                  className="bg-white rounded-xl px-4 py-3 flex items-center justify-center min-w-[150px] sm:min-w-[180px] h-12 sm:h-16 shrink-0 shadow-sm"
                 >
-                  <span className="text-2xl">{hospital.logo}</span>
-                  <span className="text-sm font-medium text-text-secondary whitespace-nowrap">
-                    {hospital.name}
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={hospital.logo}
+                    alt={hospital.name}
+                    className="max-h-full w-auto object-contain"
+                    onError={(e) => {
+                      // Fallback: replace with text
+                      const target = e.currentTarget;
+                      target.style.display = "none";
+                      const fallback = target.nextElementSibling as HTMLElement;
+                      if (fallback) fallback.style.display = "flex";
+                    }}
+                  />
+                  <span
+                    className="text-xs font-semibold text-gray-600 whitespace-nowrap items-center gap-1.5 hidden"
+                    style={{ display: "none" }}
+                  >
+                    🏥 {hospital.name}
                   </span>
                 </div>
               ))}
@@ -273,6 +288,9 @@ export default function ProofSection() {
           </div>
           <p className="text-center text-xs text-text-muted mt-4">
             và 460+ bệnh viện, phòng khám trên toàn quốc
+          </p>
+          <p className="text-center text-[10px] text-text-muted mt-1">
+            Hệ thống bệnh viện liên kết có thể thay đổi theo từng thời điểm và khu vực
           </p>
         </div>
       </div>
