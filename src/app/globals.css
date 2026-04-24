@@ -112,6 +112,9 @@
     @apply font-sans scroll-smooth;
     scroll-behavior: smooth;
   }
+  option {
+    @apply bg-background text-foreground;
+  }
 }
 
 /* Custom scrollbar */
