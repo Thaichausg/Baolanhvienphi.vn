@@ -29,42 +29,47 @@ export const faqData = [
   {
     question: "Bảo lãnh viện phí là gì?",
     answer:
-      "Bảo lãnh viện phí là quyền lợi cho phép bạn nhập viện và điều trị mà không cần thanh toán trước. Generali sẽ thanh toán trực tiếp cho bệnh viện theo phạm vi quyền lợi hợp đồng của bạn.",
+      "Bảo lãnh viện phí là hình thức mà công ty bảo hiểm thanh toán trực tiếp chi phí điều trị cho bệnh viện trong phạm vi quyền lợi của hợp đồng, giúp bạn không cần tạm ứng tiền trước tại các cơ sở y tế liên kết.",
   },
   {
     question: "Có áp dụng tại mọi bệnh viện không?",
     answer:
-      "Bảo lãnh viện phí áp dụng tại hệ thống 460+ bệnh viện và phòng khám liên kết trên toàn quốc, bao gồm Vinmec, FV, Hoàn Mỹ, và nhiều bệnh viện uy tín khác. Danh sách được cập nhật thường xuyên.",
+      "Không. Bảo lãnh viện phí áp dụng tại các bệnh viện và phòng khám nằm trong hệ thống liên kết của Generali (hiện có 460+ cơ sở). Với các bệnh viện ngoài hệ thống, bạn có thể thanh toán trước và thực hiện yêu cầu bồi thường (claim) sau.",
   },
   {
     question: "Khi nào phải tự trả tiền?",
     answer:
-      "Bạn chỉ cần tự thanh toán phần chênh lệch (nếu có) vượt quá hạn mức quyền lợi, hoặc các dịch vụ nằm ngoài phạm vi bảo hiểm. Tư vấn viên sẽ giải thích rõ trước khi bạn tham gia.",
+      "Bạn sẽ cần tự thanh toán trong các trường hợp: chi phí vượt quá hạn mức quyền lợi của gói bảo hiểm, dịch vụ không thuộc phạm vi chi trả, hoặc điều trị tại cơ sở không áp dụng bảo lãnh. Tư vấn viên sẽ giải thích rõ trước khi tham gia để bạn hiểu quyền lợi của mình.",
   },
   {
     question: "Thủ tục claim (yêu cầu bồi thường) như thế nào?",
     answer:
-      "Với bệnh viện bảo lãnh: bạn chỉ cần xuất thẻ bảo hiểm, bệnh viện tự xử lý. Với bệnh viện ngoài hệ thống: bạn thanh toán trước, sau đó nộp hồ sơ claim qua app GenVita hoặc email. Thời gian xử lý trung bình 5–7 ngày làm việc.",
+      "Có 2 hình thức: Bảo lãnh – bạn chỉ cần xuất trình thẻ bảo hiểm, bệnh viện sẽ phối hợp với công ty bảo hiểm xử lý. Hoàn trả – bạn thanh toán trước, sau đó nộp hồ sơ qua app GenVita hoặc email để được xem xét chi trả theo quy định. Thời gian xử lý tùy thuộc vào hồ sơ và quy trình thẩm định.",
   },
   {
-    question: "Bệnh có sẵn (pre-existing) có được chi trả?",
+    question: "Bệnh có sẵn (pre-existing) có được chi trả không?",
     answer:
-      "Tùy từng bệnh và thời gian chờ. Một số bệnh có thời gian chờ 12–24 tháng. Tư vấn viên sẽ trao đổi chi tiết về tình trạng sức khỏe của bạn để xác định quyền lợi chính xác.",
+      "Các bệnh có sẵn thường áp dụng thời gian chờ theo quy định của sản phẩm (có thể từ 12–24 tháng tùy trường hợp). Sau thời gian này, quyền lợi sẽ được xem xét chi trả theo điều khoản hợp đồng.",
   },
   {
-    question: "Phí bảo hiểm có tăng theo thời gian không?",
+    question: "Phí bảo hiểm có thay đổi theo thời gian không?",
     answer:
-      "Phí bảo hiểm được tính theo nhóm tuổi và có thể điều chỉnh khi bạn chuyển sang nhóm tuổi mới (thường mỗi 5–10 năm). Tuy nhiên, quyền lợi cũng tăng tương ứng.",
+      "Phí bảo hiểm được tính theo độ tuổi, giới tính và quyền lợi tham gia. Phí có thể điều chỉnh khi bạn chuyển sang nhóm tuổi mới hoặc theo chính sách của công ty tại từng thời điểm.",
   },
   {
     question: "App GenVita có những tính năng gì?",
     answer:
-      "App GenVita cho phép bạn: xem thẻ bảo hiểm điện tử, tra cứu bệnh viện liên kết, nộp hồ sơ claim online, theo dõi tiến độ xử lý, và liên hệ hỗ trợ 24/7.",
+      "App GenVita hỗ trợ: xem thẻ bảo hiểm điện tử, tra cứu bệnh viện liên kết, nộp hồ sơ yêu cầu bồi thường, theo dõi tiến độ xử lý và liên hệ hỗ trợ.",
   },
   {
     question: "Có thể mua cho cả gia đình không?",
     answer:
-      "Có. Bạn có thể mua cho vợ/chồng và con cái. Khi mua cho nhiều người (từ 2 người trở lên), bạn sẽ được ưu đãi giảm phí.",
+      "Có. Bạn có thể tham gia cho bản thân, vợ/chồng và con cái. Tùy theo chương trình tại từng thời điểm, có thể có chính sách ưu đãi khi tham gia nhiều người.",
+  },
+  {
+    question: "Bảo hiểm có chi trả 100% chi phí không?",
+    answer:
+      "Không phải mọi trường hợp đều được chi trả 100%. Mức chi trả phụ thuộc vào hạn mức quyền lợi, phạm vi bảo hiểm và điều khoản hợp đồng. Một số chi phí có thể không được chi trả hoặc chỉ chi trả một phần.",
   },
 ];
 
